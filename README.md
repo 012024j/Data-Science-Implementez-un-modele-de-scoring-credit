@@ -1,6 +1,8 @@
 ## Credit Scoring Engine – Implémentation MLOps complète
 
-##📌 Contexte
+##
+📌 Contexte:
+
 Ce projet a été réalisé dans le cadre d’une mission au sein de l’entreprise fictive "Prêt à dépenser", spécialisée dans les crédits à la consommation pour des clients sans historique de crédit.
 L’objectif est de développer un outil de scoring crédit, permettant de prédire la probabilité de remboursement d’un client et de classifier les demandes en crédit accordé ou refusé, tout en suivant une démarche MLOps complète.
 
@@ -69,7 +71,8 @@ Tracking des expériences avec MLFlow.
 
 - Suivi du data drift avec Evidently sur 20 features.
 
-##⚖️ Score métier
+##
+⚖️ Score métier
 - FP (faux positifs) = clients fiables refusés → coût = 1
 
 - FN (faux négatifs) = clients à risque acceptés → coût = 10
@@ -88,3 +91,26 @@ score = 1 - (coût_total / coût_max)
 
 - Modèle robuste mais amélioration possible du rappel
 
+
+## 🌍 Lien de démonstration
+- 🌐 API (FastAPI) 
+- 🎯 Interface (Streamlit)
+
+## 🧪 Test unitaire
+- Tests réalisés :
+
+- Vérification que le modèle utilise bien les 20 features sélectionnées
+
+- Vérification de l’exécution sur un batch de données
+
+- Vérification que les probabilités sont bien entre 0 et 1
+
+## 🧠 Explicabilité
+- Importance globale des variables via SHAP
+
+- Explications locales pour chaque prédiction (exemples individuels)
+
+## 📢 Auteur
+- Oumou Faye
+- Projet réalisé dans le cadre du parcours Data Scientist CentraleSupélec - OpenClassrooms
+- Mentor : Medina Hadjem
