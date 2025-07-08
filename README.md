@@ -110,7 +110,7 @@ score = 1 - (coût_total / coût_max)
 
 - Explications locales pour chaque prédiction (exemples individuels)
 
-## 📢 Auteur
+## Auteur
 - Oumou Faye
 - Projet réalisé dans le cadre du parcours Data Scientist CentraleSupélec - OpenClassrooms
 - Mentor : Medina Hadjem
