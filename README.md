@@ -6,7 +6,7 @@ Contexte:
 Ce projet a été réalisé dans le cadre d’une mission au sein de l’entreprise fictive "Prêt à dépenser", spécialisée dans les crédits à la consommation pour des clients sans historique de crédit.
 L’objectif est de développer un outil de scoring crédit, permettant de prédire la probabilité de remboursement d’un client et de classifier les demandes en crédit accordé ou refusé, tout en suivant une démarche MLOps complète.
 
-## 🎯 Objectifs du projet
+## Objectifs du projet
 - Élaborer un modèle de classification supervisée robuste et interprétable.
 
 - Créer un score métier basé sur le coût différencié des erreurs (faux négatifs / faux positifs).
